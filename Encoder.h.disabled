@@ -1,0 +1,30 @@
+#ifndef Encoder_h
+#define Encoder_h
+
+#include "Arduino.h"
+#include "Constants.h"
+
+
+class Encoder {
+  protected:
+    int pin;
+    unsigned int rpm;     // rpm reading
+    volatile byte pulses;  // number of pulses
+    unsigned long timeold;
+    // The number of pulses per revolution
+    // depends on your index disc!!
+    unsigned int pulsesperturn = 20;
+    void counter();
+
+  public:
+    Encoder();
+    Encoder(int); //encoder pin = interrupt pin
+    int getRpm();
+
+
+};
+
+#endif
+
+
+
