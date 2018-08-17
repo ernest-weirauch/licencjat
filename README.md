@@ -1,0 +1,3 @@
+# licencjat
+
+Moja praca licencjacka.
