@@ -9,6 +9,7 @@ Modules:
 - distance sensor: HC-SR04
 - H-bridge (motor driver)
 - led diodes and resistor for them
+- light sensor (photoresistor)
 
 
 
