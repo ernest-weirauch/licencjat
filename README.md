@@ -1,6 +1,7 @@
 # licencjat
 
-My OOP Arduino bachelor work. 
+My OOP Arduino bachelor work. <br />
+Language: EN (comments in PL)
 
 Elements: 
 - Arduino Mega (because I needed more i/o pins than UNO can provide)
