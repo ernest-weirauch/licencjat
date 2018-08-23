@@ -2,7 +2,7 @@
 
 My OOP Arduino bachelor work. 
 
-Modules: 
+Elements: 
 - Arduino Mega (because I needed more i/o pins than UNO can provide)
 - USB Host Shield (Keyes)
 - XBOX360 pad and his wireless USB receiver
